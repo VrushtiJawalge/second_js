@@ -52,15 +52,7 @@ console.log(findGreatest(num1, num2, num3));
 
 
 //  7. Create a function to calculate the factorial of a number.
-function factorial(n) {
-    if (n < 0) return "Invalid input";
-    let fact = 1;
-    for (let i = 1; i <= n; i++) {
-        fact *= i;
-    }
-    return fact;
-}
-console.log(factorial(5));
+
 //  8. Create a function that reverses a given string.
 function reverseString(str) {
     return str.split();
@@ -77,15 +69,6 @@ function isPrime(num) {
 console.log(isPrime(7));
 
 //  10. Create a function that counts the number of vowels in a string
-function countVowels(str) {
-    const vowels = 'aeiouAEIOU';
-    let count = 0;
-    for (let char of str) {
-        if (vowels.includes(char)) {
-            count++;
-        }
-    }
-    return count;
-}
-console.log(countVowels("Hello World")); // Output: 3
+
+
 
