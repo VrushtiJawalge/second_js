@@ -1,8 +1,8 @@
 // 1. Create a function to print 'Hello, World!'
-function hello(){
+function func(){
     console.log("Hello world")
 }
-hello()
+func()
 
 //  2. Create a function that takes two numbers and returns their sum.
 function sum(a,b){
@@ -88,3 +88,4 @@ function countVowels(str) {
     return count;
 }
 console.log(countVowels("Hello World")); // Output: 3
+
