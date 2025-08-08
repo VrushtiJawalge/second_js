@@ -55,38 +55,10 @@ function reverseNumber(n) {
 console.log("Reverse of 1234 is:", reverseNumber(1234));
 
 // 8. Check if a number is a palindrome
-function isPalindrome(n) {
-    let original = n;
-    let reversed = 0;
-    while (n !== 0) {
-        let digit = n % 10;
-        reversed = reversed * 10 + digit;
-        n = Math.floor(n / 10);
-    }
-    return original === reversed;
-}
-console.log("Is 121 a palindrome?", isPalindrome(121)); // true
+
 
 // 9. Find the sum of digits of a number
-function sumOfDigits(n) {
-    let sum = 0;
-    while (n !== 0) {
-        sum += n % 10;
-        n = Math.floor(n / 10);
-    }
-    return sum;
-}
-console.log("Sum of digits of 1234 is:", sumOfDigits(1234));
+
 
 // 10. Print Fibonacci series up to N terms
-function fibonacci(n) {
-    let a = 0, b = 1;
-    console.log("Fibonacci series:");
-    for (let i = 0; i < n; i++) {
-        console.log(a);
-        let next = a + b;
-        a = b;
-        b = next;
-    }
-}
-fibonacci(10); // N terms
+
